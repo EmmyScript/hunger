@@ -96,7 +96,7 @@ const Hungry= () => {
         <div className="empty-div"></div>
     <div className="container">
         
-        <div className="header">Global Weather & Hungry APP</div>
+        <div className="header">Global Weather & Hardship APP</div>
       <div className="top-bar">
         {isLoading && <div className="spinner-border loading" >loading....</div>}
         
@@ -130,25 +130,27 @@ const Hungry= () => {
       <div className="weather-location">{wedaData?.name}</div>
       <div className="data-container">
         <div className="element">
-          <img src={begfood} className="icon" alt="..." width={70}  height={70} style={{objectFit:"cover"}}/>
+          <img src={rice} className="icon" alt="..." width={70}  height={70} style={{objectFit:"cover"}}/>
           <div className="data">
             <div className="humidity-percent">{wedaData?.main?.humidity}%</div>
-            <div className="text">Humidity of Hunger</div>
+            <div className="text">Humidity of Hungry</div>
           </div>
         </div>
 
         <div className="element">
-          <img src={child} className="icon" alt="..." width={70}  height={70} style={{objectFit:"cover"}}/>
+          <img src={begfood} className="icon" alt="..." width={70}  height={70} style={{objectFit:"cover"}}/>
           <div className="data">
             <div className="humidity-percent">{wedaData?.wind?.deg}km/h</div>
-            <div className="text">Wind Speed/Hardship</div>
+            <div className="text">Wind Speed/Angry</div>
           </div>
         </div>
         
       </div>
       <div className="scroll-container">
         <div className="scroll-text">@emmyTechy
-        <img src={flag} alt="..." width={20} height={20} className="rounded-circle" style={{objectFit:"cover",fontSize:"bolder"}}/>
+        <img src={child} alt="..." width={70} height={50} className="rounded-circle" style={{objectFit:"cover",fontSize:"bolder"}}/>
+        <img src={openhand} alt="..." width={70} height={50} className="rounded-circle" style={{objectFit:"cover",fontSize:"bolder"}}/>
+        9ja are hungry and angry
         </div>
         
       </div>

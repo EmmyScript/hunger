@@ -6,7 +6,7 @@ import child from "../assets/image/children.jpg"
 import flag from "../assets/image/flag.jpg"
 import rice from "../assets/image/rice2.jpg"
 import begfood from "../assets/image/begfood.jpg"
-import goat from "../assets/image/goat.jpg"
+import goat from "../assets/image/osi.jpg"
 import openhand from "../assets/image/openhand.jpg"
 
 
@@ -148,9 +148,15 @@ const Hungry= () => {
       </div>
       <div className="scroll-container">
         <div className="scroll-text">@emmyTechy
-        <img src={child} alt="..." width={70} height={50} className="rounded-circle" style={{objectFit:"cover",fontSize:"bolder"}}/>
-        <img src={openhand} alt="..." width={70} height={50} className="rounded-circle" style={{objectFit:"cover",fontSize:"bolder"}}/>
-        9ja are hungry and angry
+        <img src={child} alt="..." width={70} height={50} className="rounded-circle" style={{objectFit:"cover",fontSize:"bolder"
+          , border:5, borderRadius:20
+        }}/>
+        <img src={openhand} alt="..." width={70} height={50} className="rounded-circle" style={{objectFit:"cover",fontSize:"bolder"
+           , border:5, borderRadius:20
+        }}
+        />
+        <span style={{color:"red"}}>
+        9ja are hungry and angry</span>
         </div>
         
       </div>
